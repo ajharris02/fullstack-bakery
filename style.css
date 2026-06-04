@@ -1,0 +1,53 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #a52a2a;
+  font-size: 1.2rem;
+  gap: 1rem;
+  background-color: #ffe4c4;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: #00008b;
+  font-size: 3rem;
+}
+.text {
+  font-family: "Times New Roman", Times, serif;
+  color: #6a5acd;
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+.testimonial {
+  font-family: "Times New Roman", Times, serif;
+  color: #8b008b;
+  font-size: 1.5rem;
+  background-color: #00ffaa;
+}
+footer {
+  font-family: "Times New Roman", Times, serif;
+  color: #8b008b;
+  font-size: 1.5rem;
+  flex-grow: 1;
+  background-color: #dcdcdc;
+}
+.brand {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(0, 255, 0);
+  font-size: 4rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  border: 5px solid #8573ff;
+  justify-content: center;
+  align-items: center;
+  background-color: darkorange;
+}
+main {
+  flex-grow: 1;
+}
